@@ -1,13 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Header from "./Header";
+
 
 function App() {
-  return (
-    <div className="App">
-       <h1>Try out</h1>
-       <h1>Hope this works</h1>
-    </div>
+   return (
+    <Router>
+
+        <div className="App">
+
+           <Routes>
+              <Route path="/" element={[<Header />]}/>
+           </Routes>
+        </div>
+    </Router>
   );
 }
 
 export default App;
+
