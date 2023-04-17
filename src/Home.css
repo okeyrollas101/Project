@@ -1,0 +1,42 @@
+.home {
+    background-image: url('https://images.pexels.com/photos/5676744/pexels-photo-5676744.jpeg?auto=compress&cs=tinysrgb&w=800');
+    margin-left: auto;
+    background-size: cover;
+    margin-right: auto;
+    max-width: 1600px;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    opacity: 1.5;
+}
+
+.home__welcome {
+    max-width: 600px;
+    height: 200px;
+    padding-top: 10px;
+    font-size: x-large;
+    margin-top: 120px;
+    margin-left: 7rem;
+    font-weight: 600;
+    font-family: Verdana, Geneva;
+}
+
+.home__welcome:hover {
+    transform: translate(30px, 60px);
+    color: white;  
+}
+
+.home__info {
+    margin-top: 250px;
+    margin-left: auto;
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+    background-color: black;
+}
+
+.home__info:hover {
+    transform: translate(3px, 20px);
+    color:brown;
+}
+

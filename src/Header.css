@@ -1,9 +1,10 @@
 .header {
-    height: 80px;
+    height: 60px;
     display: flex;
     align-items: center;
     background-color: goldenrod;
     top: 0;
+    position: sticky;
     z-index: 100;
     justify-content: space-evenly;
 }
@@ -12,6 +13,8 @@
     width: 80px;
     object-fit: contain;
     opacity: 0.4;
+    height: 60px;
+    background-color: goldenrod;
 }
 
 .header__info {
@@ -19,4 +22,11 @@
     align-items: center;
 }
 
+.header__name:hover,.header__options:hover {
+    color: blueviolet;
+}
+
+.header__name::first-letter {
+    font-size: xxx-large;
+}
 

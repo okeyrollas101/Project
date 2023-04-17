@@ -1,0 +1,19 @@
+.footer {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: auto;
+    font-weight: 600;
+}
+
+.footer__socialmedia > p > img {
+    height: 60px;
+    width: 60px;
+}
+
+.footer__socialmedia {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-left: 41%;
+    margin-top: 10px;
+}
