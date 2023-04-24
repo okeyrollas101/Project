@@ -9,6 +9,10 @@
     justify-content: space-evenly;
 }
 
+.header__options:hover,.header__name:hover {
+    color:blueviolet;
+}
+
 .header__logo {
     width: 80px;
     object-fit: contain;
@@ -22,11 +26,13 @@
     align-items: center;
 }
 
-.header__name:hover,.header__options:hover {
-    color: blueviolet;
-}
-
 .header__name::first-letter {
     font-size: xxx-large;
 }
+
+.link__style {
+    text-decoration: none;
+    color: black;
+}
+
 

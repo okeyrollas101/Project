@@ -12,7 +12,7 @@ function Home() {
        </div>
 
        <div className="home__info">
-          <p>Don't flinch, your info is save with Upheave...It's about time to get started with our Archive</p>
+          <p>Don't flinch, your info is safe with Upheave...It's about time to get started with our Archive</p>
           <big>Create An Account and get Started.</big>
        </div>
 
