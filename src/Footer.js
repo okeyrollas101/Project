@@ -8,7 +8,7 @@ import insta from './assets/instaimg.png';
 const Footer = () => {
     return (
         <div className='footer'>
-           <h4>coming soon on</h4>
+           <h4 className="footer__foot">coming soon on</h4>
 
            <div className="footer__socialmedia">
               <p><img src={fb} alt="" /></p>
@@ -17,7 +17,7 @@ const Footer = () => {
               <p><img src={insta} alt="" /></p>
            </div>
 
-           <p>Copyright © 2023. All rights reserved.</p>
+           <p className="footer__foot">Copyright © 2023. All rights reserved.</p>
         </div>
     );
 }

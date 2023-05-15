@@ -1,14 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Header.css';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
-function Header() {
-   const [clicked, setClicked] = useState(false);
-
-   const handleClick = () => {
-      setClicked(true);
-   }
-
+function Header() { 
+  
+  const navLinkStyles = ({ isActive }) => {
+        return {
+          fontWeight: isActive ? 'bold' : 'normal',
+          textDecoration: isActive ? 'none' : ''
+        }
+  }
 
   return (
      <div className="header">
@@ -19,13 +20,11 @@ function Header() {
           </div>
         </Link>
 
-        <Link to='/About' className='link__style'>
-          <h3 className='header__options' onClick={handleClick} style={{ color: clicked ? 'blue' : ''}}>What we do</h3>
-        </Link>
-
-        <h3 className='header__options'>Contact Us</h3>
-
-        <h3 className='header__options'>Login|Register</h3>
+        <nav>
+           <NavLink style={navLinkStyles} className='active' to='/about'>What we do</NavLink>
+           <NavLink style={navLinkStyles} className='active' to='/contact'>Contact Us</NavLink>
+           <NavLink style={navLinkStyles} className='active' to='/login'>Login|Register</NavLink>
+        </nav>
      </div>
   )
 }
