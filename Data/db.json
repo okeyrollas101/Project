@@ -1,0 +1,14 @@
+{
+    "details": [
+        {
+           "id": 1,
+           "name": "Rollas",
+           "Gender": "M"
+        },
+        {
+            "id": 2,
+            "name": "OkeyRollas",
+            "Gender": "M"
+         }
+    ]
+}
