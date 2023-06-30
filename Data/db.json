@@ -1,14 +1,34 @@
 {
-    "details": [
-        {
-           "id": 1,
-           "name": "Rollas",
-           "Gender": "M"
-        },
-        {
-            "id": 2,
-            "name": "OkeyRollas",
-            "Gender": "M"
-         }
-    ]
+  "studentDetails": [
+    {
+      "id": 1,
+      "name": "Obileke Somtochukwu",
+      "dob": "2000-04-01",
+      "gender": "M",
+      "year": 4,
+      "email": "somto@gmail.com",
+      "phone": "+234 916 691 4889",
+      "department": "Medicine"
+    },
+    {
+      "id": 2,
+      "name": "Obileke Chidera",
+      "dob": "2003-12-24",
+      "gender": "M",
+      "year": 2,
+      "email": "chidera@gmail.com",
+      "phone": "+234 803 720 7781",
+      "department": "Tech"
+    },
+    {
+      "name": "Jamie Lisa",
+      "dob": "2003-11-04",
+      "gender": "F",
+      "year": "4",
+      "email": "prettylisajamie@gmail.com",
+      "phone": "+234 000 777 1247",
+      "department": "Zoology",
+      "id": 3
+    }
+  ]
 }
