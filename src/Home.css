@@ -1,13 +1,10 @@
 .home {
-    background-image: url('https://images.pexels.com/photos/5676744/pexels-photo-5676744.jpeg?auto=compress&cs=tinysrgb&w=800');
-    margin-left: auto;
+    background-image: url('./assets/pexel.jpg');
     background-size: cover;
-    margin-right: auto;
-    max-width: 1600px;
     height: 120vh;
     display: flex;
     flex-direction: column;
-    opacity: 1.5;
+    opacity: 0.6;
 }
 
 .home__welcome {

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import { Link, NavLink } from 'react-router-dom';
+import student from './assets/education.avif';
 
 function Header() { 
   
@@ -15,7 +16,7 @@ function Header() {
      <div className="header">
         <Link to='/' className='link__style'>
           <div className="header__info">
-            <img className="header__logo" src="https://img.freepik.com/premium-vector/education-school-logo-design_586739-1336.jpg?w=740" alt="" />
+            <img className="header__logo" src={student} alt="" />
             <h1 className='header__name'>Upheave</h1>
           </div>
         </Link>

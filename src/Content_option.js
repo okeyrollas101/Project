@@ -1,6 +1,6 @@
 const contactConfig =  {
    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+      "We want you to find student registration easy, please feel free to contact us for further consultation/questions, you're not going to hit a ridiculously long phone menu when you call us, your email isn't going to the inbox abyss . We'd love to hear from you."
 };
 
 export {

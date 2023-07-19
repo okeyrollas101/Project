@@ -12,7 +12,7 @@ import StudentDetails from "./StudentDetails";
 
 
 function App() {
-   const [{}, dispatch] = useStateValue();
+   const [{user}, dispatch] = useStateValue();
 
    useEffect(() => {
      // will only run once when the app components loads
@@ -34,7 +34,7 @@ function App() {
              })
           }
      })
-   }, [])
+   }, [user])
 
    return (
     <Router>

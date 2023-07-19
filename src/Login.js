@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Login.css';
 import { Link, useNavigate } from 'react-router-dom';
 import { auth } from './Firebase';
+import student from './assets/education.avif';
 
 const Login = () => {
     const navigate = useNavigate(); 
@@ -35,7 +36,7 @@ const Login = () => {
     return(
         <div className="login">
             <Link to='/'>
-              <img className="login__logo" src="https://img.freepik.com/premium-vector/education-school-logo-design_586739-1336.jpg?w=740" alt="" />
+              <img className="login__logo" src={student} alt="" />
             </Link>
 
             <div className="login__container">

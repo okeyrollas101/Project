@@ -18,11 +18,11 @@ const Contact = () => {
              <Col lg='5' className='mb-5'>
                <h3 className="color_sec py-4">Get in touch</h3>
                <address>
-                  <strong>Email: developer@javascript.com</strong>
+                  <strong>Email: obilekekachi@gmail.com</strong>
                   <br />
                   <br />
                   <p>
-                    <strong>Phone: +234 XXX XXX</strong>
+                    <strong>Phone: +234 816 927 2861</strong>
                   </p>
                </address>
                <p>{contactConfig.description}</p>

@@ -5,9 +5,9 @@
       "name": "Obileke Somtochukwu",
       "dob": "2000-04-01",
       "gender": "M",
-      "year": 4,
+      "year": "4",
       "email": "somto@gmail.com",
-      "phone": "+234 916 691 4889",
+      "phone": "(091) 669 14889",
       "department": "Medicine"
     },
     {
@@ -15,9 +15,9 @@
       "name": "Obileke Chidera",
       "dob": "2003-12-24",
       "gender": "M",
-      "year": 2,
+      "year": "2",
       "email": "chidera@gmail.com",
-      "phone": "+234 803 720 7781",
+      "phone": "(080) 372 07781",
       "department": "Tech"
     },
     {
@@ -26,7 +26,7 @@
       "gender": "F",
       "year": "4",
       "email": "prettylisajamie@gmail.com",
-      "phone": "+234 000 777 1247",
+      "phone": "(080) 554 32788",
       "department": "Zoology",
       "id": 3
     }
