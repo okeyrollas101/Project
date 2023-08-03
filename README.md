@@ -89,7 +89,7 @@
   application.
 
   I made sure to export the function i.e firebase.auth, because i had to import it into components that required the user authentication 
-  like my login componenent. Firebase saved me the hassle of making use of regular expression to validate the creating of my email and password.
+  like my login componenent. Firebase saved me the hassle of making use of regular expression to validate the creating of my email and password. I finally used firesbase as a tool to deploy my application.
 
   
 ## How to run the project locally and available scripts 
