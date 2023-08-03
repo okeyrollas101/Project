@@ -19,16 +19,6 @@
       "email": "chidera@gmail.com",
       "phone": "(080) 372 07781",
       "department": "Tech"
-    },
-    {
-      "name": "Jamie Lisa",
-      "dob": "2003-11-04",
-      "gender": "F",
-      "year": "4",
-      "email": "prettylisajamie@gmail.com",
-      "phone": "(080) 554 32788",
-      "department": "Zoology",
-      "id": 3
     }
   ]
 }
